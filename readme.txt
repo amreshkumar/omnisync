@@ -1,6 +1,12 @@
 Installing dependencies:
 - Run `pip install -r requirements.txt`
 
+Looking on Docker container for logs:
+1. `docker build -t omnisync .`
+2. `docker run -d -p 4000:80 omnisync`
+3. `docker ps`
+4. `docker exec -it container_id /bin/bash`
+5. `cat s3_sync.log`
 
 Documentation:
 1. Introduction (1 page)
