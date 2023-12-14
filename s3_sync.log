@@ -3,3 +3,12 @@ INFO:root:Source Files: ['SourceDir/ContentDir1/File2.txt', 'SourceDir/ContentDi
 INFO:root:Source Directories: []
 INFO:root:Destination Files: ['SourceDir/ContentDir1/File2.txt', 'SourceDir/ContentDir2/File3.txt', 'SourceDir/File1.txt']
 INFO:root:Destination Directories: []
+INFO:botocore.credentials:Found credentials in environment variables.
+INFO:root:Source Files: ['SourceDir/ContentDir1/File2.txt', 'SourceDir/ContentDir2/File3.txt']
+INFO:root:Source Directories: []
+INFO:root:Destination Files: ['SourceDir/ContentDir1/File2.txt', 'SourceDir/ContentDir2/File3.txt', 'SourceDir/File1.txt']
+INFO:root:Destination Directories: []
+INFO:root:Source Files: ['SourceDir/ContentDir1/File2.txt', 'SourceDir/ContentDir2/File3.txt']
+INFO:root:Source Directories: []
+INFO:root:Destination Files: ['SourceDir/ContentDir1/File2.txt', 'SourceDir/ContentDir2/File3.txt']
+INFO:root:Destination Directories: []

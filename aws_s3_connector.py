@@ -76,6 +76,9 @@ def delete_objects(s3_client, target_bucket, source_objects):
     This function takes a list of objects to delete and removes them from the
     target bucket. If an object does not exist in the target bucket, no action
     is taken for that object.
+    
+    Note: S3 is also configured to maintain versioning, outside of this script.
+    This allows us to maintain a history of all files, even if they are deleted.
 
     Parameters:
     target_bucket (str): The name of the target S3 bucket.
